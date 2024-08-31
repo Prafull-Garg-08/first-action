@@ -1,0 +1,10 @@
+name: multi-line-workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Printing hello
+        run: |
+            echo "Hello"
+            echo "world"
